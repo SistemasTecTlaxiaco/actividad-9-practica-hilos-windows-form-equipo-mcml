@@ -30,13 +30,13 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
             this.AgendaTareas2 = new System.Windows.Forms.Label();
-            this.AgegraTareas = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.Mas = new System.Windows.Forms.Button();
             this.TodasTareas = new System.Windows.Forms.Button();
             this.Trabajos = new System.Windows.Forms.Button();
             this.Personales = new System.Windows.Forms.Button();
             this.Metas = new System.Windows.Forms.Button();
+            this.progressBar = new System.Windows.Forms.ProgressBar();
+            this.listBoxTareas = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // AgendaTareas2
@@ -51,36 +51,12 @@
             this.AgendaTareas2.Text = "Agenda de tareas";
             this.AgendaTareas2.Click += new System.EventHandler(this.AgendaTareas2_Click);
             // 
-            // AgegraTareas
-            // 
-            this.AgegraTareas.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.AgegraTareas.AutoSize = true;
-            this.AgegraTareas.Font = new System.Drawing.Font("Arial", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AgegraTareas.Location = new System.Drawing.Point(270, 131);
-            this.AgegraTareas.Name = "AgegraTareas";
-            this.AgegraTareas.Size = new System.Drawing.Size(230, 37);
-            this.AgegraTareas.TabIndex = 6;
-            this.AgegraTareas.Text = "Agrega Tarea ";
-            this.AgegraTareas.Click += new System.EventHandler(this.AgegraTareas_Click);
-            // 
-            // label1
-            // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(263, 196);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(261, 23);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "No tienes tareas pendientes ";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
             // Mas
             // 
             this.Mas.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.Mas.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Mas.BackgroundImage")));
             this.Mas.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Mas.Location = new System.Drawing.Point(506, 140);
+            this.Mas.Location = new System.Drawing.Point(706, 321);
             this.Mas.Name = "Mas";
             this.Mas.Size = new System.Drawing.Size(40, 28);
             this.Mas.TabIndex = 8;
@@ -139,20 +115,36 @@
             this.Metas.UseVisualStyleBackColor = false;
             this.Metas.Click += new System.EventHandler(this.Metas_Click);
             // 
+            // progressBar
+            // 
+            this.progressBar.Location = new System.Drawing.Point(18, 9);
+            this.progressBar.Name = "progressBar";
+            this.progressBar.Size = new System.Drawing.Size(767, 378);
+            this.progressBar.TabIndex = 14;
+            // 
+            // listBoxTareas
+            // 
+            this.listBoxTareas.FormattingEnabled = true;
+            this.listBoxTareas.ItemHeight = 20;
+            this.listBoxTareas.Location = new System.Drawing.Point(71, 122);
+            this.listBoxTareas.Name = "listBoxTareas";
+            this.listBoxTareas.Size = new System.Drawing.Size(308, 224);
+            this.listBoxTareas.TabIndex = 15;
+            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.ClientSize = new System.Drawing.Size(810, 450);
+            this.Controls.Add(this.listBoxTareas);
             this.Controls.Add(this.Metas);
             this.Controls.Add(this.Personales);
             this.Controls.Add(this.Trabajos);
             this.Controls.Add(this.TodasTareas);
             this.Controls.Add(this.Mas);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.AgegraTareas);
             this.Controls.Add(this.AgendaTareas2);
+            this.Controls.Add(this.progressBar);
             this.Name = "Form3";
             this.Text = "Funciones";
             this.Load += new System.EventHandler(this.Form3_Load);
@@ -164,12 +156,12 @@
         #endregion
 
         private System.Windows.Forms.Label AgendaTareas2;
-        private System.Windows.Forms.Label AgegraTareas;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button Mas;
         private System.Windows.Forms.Button TodasTareas;
         private System.Windows.Forms.Button Trabajos;
         private System.Windows.Forms.Button Personales;
         private System.Windows.Forms.Button Metas;
+        private System.Windows.Forms.ProgressBar progressBar;
+        private System.Windows.Forms.ListBox listBoxTareas;
     }
 }

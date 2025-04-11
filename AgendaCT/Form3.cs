@@ -16,6 +16,12 @@ namespace AgendaCT
         {
             InitializeComponent();
         }
+        // Clase Tarea
+        public class Tarea
+        {
+            public string Nombre { get; set; }
+            public DateTime FechaVencimiento { get; set; }
+        }
 
         private void Form3_Load(object sender, EventArgs e)
         {
