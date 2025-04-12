@@ -36,6 +36,13 @@ namespace AgendaCT
             tareas.Add(new Tarea { Nombre = "Tarea 2", FechaVencimiento = DateTime.Now.AddDays(2) });
             tareas.Add(new Tarea { Nombre = "Tarea 3", FechaVencimiento = DateTime.Now.AddDays(3) });
             tareas.Add(new Tarea { Nombre = "Tarea 4", FechaVencimiento = DateTime.Now.AddDays(4) });
+            tareas.Add(new Tarea { Nombre = "Tarea 5", FechaVencimiento = DateTime.Now.AddDays(5) });
+            tareas.Add(new Tarea { Nombre = "Tarea 6", FechaVencimiento = DateTime.Now.AddDays(6) });
+            tareas.Add(new Tarea { Nombre = "Tarea 7", FechaVencimiento = DateTime.Now.AddDays(7) });
+            tareas.Add(new Tarea { Nombre = "Tarea 8", FechaVencimiento = DateTime.Now.AddDays(8) });
+
+            return tareas;
+
         }
         private void Form3_Load(object sender, EventArgs e)
         {
