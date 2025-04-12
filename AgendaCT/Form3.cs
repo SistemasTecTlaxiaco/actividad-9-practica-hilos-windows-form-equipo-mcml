@@ -44,6 +44,15 @@ namespace AgendaCT
             return tareas;
 
         }
+        // Método para cargar las tareas al iniciar el formulario
+        private async void Form3_Load(object sender, EventArgs e)
+        {
+            try
+            {
+                // Centrar el formulario
+                this.CenterToScreen();
+                this.CenterToParent();
+
         private void Form3_Load(object sender, EventArgs e)
         {
             this.CenterToScreen();
