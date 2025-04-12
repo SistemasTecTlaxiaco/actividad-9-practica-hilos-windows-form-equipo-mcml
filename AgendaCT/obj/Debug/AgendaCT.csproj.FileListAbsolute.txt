@@ -15,3 +15,17 @@ C:\Users\CICEM\source\repos\AgendaCT\AgendaCT\obj\Debug\AgendaCT.csproj.Generate
 C:\Users\CICEM\source\repos\AgendaCT\AgendaCT\obj\Debug\AgendaCT.csproj.CoreCompileInputs.cache
 C:\Users\CICEM\source\repos\AgendaCT\AgendaCT\obj\Debug\AgendaCT.exe
 C:\Users\CICEM\source\repos\AgendaCT\AgendaCT\obj\Debug\AgendaCT.pdb
+C:\Users\lenin\source\repos\actividad-9-practica-hilos-windows-form-equipo-mcml\AgendaCT\obj\Debug\AgendaCT.csproj.AssemblyReference.cache
+C:\Users\lenin\source\repos\actividad-9-practica-hilos-windows-form-equipo-mcml\AgendaCT\obj\Debug\AgendaCT.Form1.resources
+C:\Users\lenin\source\repos\actividad-9-practica-hilos-windows-form-equipo-mcml\AgendaCT\obj\Debug\AgendaCT.Form2.resources
+C:\Users\lenin\source\repos\actividad-9-practica-hilos-windows-form-equipo-mcml\AgendaCT\obj\Debug\AgendaCT.Form3.resources
+C:\Users\lenin\source\repos\actividad-9-practica-hilos-windows-form-equipo-mcml\AgendaCT\obj\Debug\AgendaCT.Form4.resources
+C:\Users\lenin\source\repos\actividad-9-practica-hilos-windows-form-equipo-mcml\AgendaCT\obj\Debug\AgendaCT.Form5.resources
+C:\Users\lenin\source\repos\actividad-9-practica-hilos-windows-form-equipo-mcml\AgendaCT\obj\Debug\AgendaCT.Form6.resources
+C:\Users\lenin\source\repos\actividad-9-practica-hilos-windows-form-equipo-mcml\AgendaCT\obj\Debug\AgendaCT.Form7.resources
+C:\Users\lenin\source\repos\actividad-9-practica-hilos-windows-form-equipo-mcml\AgendaCT\obj\Debug\AgendaCT.Form8.resources
+C:\Users\lenin\source\repos\actividad-9-practica-hilos-windows-form-equipo-mcml\AgendaCT\obj\Debug\AgendaCT.Properties.Resources.resources
+C:\Users\lenin\source\repos\actividad-9-practica-hilos-windows-form-equipo-mcml\AgendaCT\obj\Debug\AgendaCT.csproj.GenerateResource.cache
+C:\Users\lenin\source\repos\actividad-9-practica-hilos-windows-form-equipo-mcml\AgendaCT\obj\Debug\AgendaCT.csproj.CoreCompileInputs.cache
+C:\Users\lenin\source\repos\actividad-9-practica-hilos-windows-form-equipo-mcml\AgendaCT\obj\Debug\AgendaCT.exe
+C:\Users\lenin\source\repos\actividad-9-practica-hilos-windows-form-equipo-mcml\AgendaCT\obj\Debug\AgendaCT.pdb

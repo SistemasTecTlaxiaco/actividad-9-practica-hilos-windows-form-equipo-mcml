@@ -27,11 +27,11 @@ namespace AgendaCT
         // Método para cargar tareas
         public List<Tarea> CargarTareas() {
             List<Tarea> tareas = new List<Tarea>();
-            
+
             // Simulamos la carga con un retraso
             Thread.Sleep(2000); // 2 segundos de espera
 
-// Agregar 8 tareas de ejemplo
+            // Agregar 8 tareas de ejemplo
             tareas.Add(new Tarea { Nombre = "Tarea 1", FechaVencimiento = DateTime.Now.AddDays(1) });
             tareas.Add(new Tarea { Nombre = "Tarea 2", FechaVencimiento = DateTime.Now.AddDays(2) });
             tareas.Add(new Tarea { Nombre = "Tarea 3", FechaVencimiento = DateTime.Now.AddDays(3) });
@@ -53,16 +53,18 @@ namespace AgendaCT
                 this.CenterToScreen();
                 this.CenterToParent();
 
-        private void Form3_Load(object sender, EventArgs e)
-        {
-            this.CenterToScreen();
-            this.CenterToParent();
-        }
+                // Deshabilitar algunos controles mientras se cargan las tareas
+                progressBar.Visible = true; // Si tienes un progress bar, hazlo visible
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
+                // Usar un Task para ejecutar la carga de tareas en segundo plano
+                var tareas = await Task.Run(() => CargarTareas());
 
-        }
+                // Aquí puedes actualizar la interfaz de usuario con las tareas cargadas
+                listBoxTareas.Items.Clear();  // Limpiar el ListBox antes de agregar nuevas tareas
+                foreach (var tarea in tareas)
+                {
+                    listBoxTareas.Items.Add($"{tarea.Nombre} - {tarea.FechaVencimiento.ToShortDateString()}");
+                }
 
         private void label1_Click(object sender, EventArgs e)
         {
