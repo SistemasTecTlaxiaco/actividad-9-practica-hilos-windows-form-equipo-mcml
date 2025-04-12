@@ -44,9 +44,10 @@
             this.AgendaTareas2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.AgendaTareas2.AutoSize = true;
             this.AgendaTareas2.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AgendaTareas2.Location = new System.Drawing.Point(12, 9);
+            this.AgendaTareas2.Location = new System.Drawing.Point(8, 6);
+            this.AgendaTareas2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.AgendaTareas2.Name = "AgendaTareas2";
-            this.AgendaTareas2.Size = new System.Drawing.Size(234, 32);
+            this.AgendaTareas2.Size = new System.Drawing.Size(160, 22);
             this.AgendaTareas2.TabIndex = 1;
             this.AgendaTareas2.Text = "Agenda de tareas";
             this.AgendaTareas2.Click += new System.EventHandler(this.AgendaTareas2_Click);
@@ -56,9 +57,10 @@
             this.Mas.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.Mas.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Mas.BackgroundImage")));
             this.Mas.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Mas.Location = new System.Drawing.Point(706, 321);
+            this.Mas.Location = new System.Drawing.Point(471, 209);
+            this.Mas.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Mas.Name = "Mas";
-            this.Mas.Size = new System.Drawing.Size(40, 28);
+            this.Mas.Size = new System.Drawing.Size(27, 18);
             this.Mas.TabIndex = 8;
             this.Mas.UseVisualStyleBackColor = true;
             this.Mas.Click += new System.EventHandler(this.button1_Click);
@@ -68,9 +70,10 @@
             this.TodasTareas.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.TodasTareas.BackColor = System.Drawing.SystemColors.ControlLight;
             this.TodasTareas.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TodasTareas.Location = new System.Drawing.Point(71, 64);
+            this.TodasTareas.Location = new System.Drawing.Point(47, 42);
+            this.TodasTareas.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.TodasTareas.Name = "TodasTareas";
-            this.TodasTareas.Size = new System.Drawing.Size(148, 40);
+            this.TodasTareas.Size = new System.Drawing.Size(99, 26);
             this.TodasTareas.TabIndex = 10;
             this.TodasTareas.Text = "Todas";
             this.TodasTareas.UseVisualStyleBackColor = false;
@@ -81,9 +84,10 @@
             this.Trabajos.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.Trabajos.BackColor = System.Drawing.SystemColors.ControlLight;
             this.Trabajos.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Trabajos.Location = new System.Drawing.Point(246, 64);
+            this.Trabajos.Location = new System.Drawing.Point(164, 42);
+            this.Trabajos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Trabajos.Name = "Trabajos";
-            this.Trabajos.Size = new System.Drawing.Size(148, 40);
+            this.Trabajos.Size = new System.Drawing.Size(99, 26);
             this.Trabajos.TabIndex = 11;
             this.Trabajos.Text = "Trabajo";
             this.Trabajos.UseVisualStyleBackColor = false;
@@ -94,9 +98,10 @@
             this.Personales.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.Personales.BackColor = System.Drawing.SystemColors.ControlLight;
             this.Personales.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Personales.Location = new System.Drawing.Point(420, 64);
+            this.Personales.Location = new System.Drawing.Point(280, 42);
+            this.Personales.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Personales.Name = "Personales";
-            this.Personales.Size = new System.Drawing.Size(148, 40);
+            this.Personales.Size = new System.Drawing.Size(99, 26);
             this.Personales.TabIndex = 12;
             this.Personales.Text = "Personal";
             this.Personales.UseVisualStyleBackColor = false;
@@ -107,9 +112,10 @@
             this.Metas.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.Metas.BackColor = System.Drawing.SystemColors.ControlLight;
             this.Metas.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Metas.Location = new System.Drawing.Point(598, 64);
+            this.Metas.Location = new System.Drawing.Point(399, 42);
+            this.Metas.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Metas.Name = "Metas";
-            this.Metas.Size = new System.Drawing.Size(148, 40);
+            this.Metas.Size = new System.Drawing.Size(99, 26);
             this.Metas.TabIndex = 13;
             this.Metas.Text = "Meta";
             this.Metas.UseVisualStyleBackColor = false;
@@ -117,26 +123,28 @@
             // 
             // progressBar
             // 
-            this.progressBar.Location = new System.Drawing.Point(18, 9);
+            this.progressBar.Location = new System.Drawing.Point(12, 6);
+            this.progressBar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.progressBar.Name = "progressBar";
-            this.progressBar.Size = new System.Drawing.Size(767, 378);
+            this.progressBar.Size = new System.Drawing.Size(511, 246);
             this.progressBar.TabIndex = 14;
             // 
             // listBoxTareas
             // 
             this.listBoxTareas.FormattingEnabled = true;
-            this.listBoxTareas.ItemHeight = 20;
-            this.listBoxTareas.Location = new System.Drawing.Point(71, 122);
+            this.listBoxTareas.Location = new System.Drawing.Point(47, 79);
+            this.listBoxTareas.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.listBoxTareas.Name = "listBoxTareas";
-            this.listBoxTareas.Size = new System.Drawing.Size(308, 224);
+            this.listBoxTareas.Size = new System.Drawing.Size(207, 147);
             this.listBoxTareas.TabIndex = 15;
+            this.listBoxTareas.SelectedIndexChanged += new System.EventHandler(this.listBoxTareas_SelectedIndexChanged);
             // 
             // Form3
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.ClientSize = new System.Drawing.Size(810, 450);
+            this.ClientSize = new System.Drawing.Size(540, 292);
             this.Controls.Add(this.listBoxTareas);
             this.Controls.Add(this.Metas);
             this.Controls.Add(this.Personales);
@@ -145,6 +153,7 @@
             this.Controls.Add(this.Mas);
             this.Controls.Add(this.AgendaTareas2);
             this.Controls.Add(this.progressBar);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form3";
             this.Text = "Funciones";
             this.Load += new System.EventHandler(this.Form3_Load);

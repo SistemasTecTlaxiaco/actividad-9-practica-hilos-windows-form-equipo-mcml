@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -23,6 +24,19 @@ namespace AgendaCT
             public DateTime FechaVencimiento { get; set; }
         }
 
+        // Método para cargar tareas
+        public List<Tarea> CargarTareas() {
+            List<Tarea> tareas = new List<Tarea>();
+            
+            // Simulamos la carga con un retraso
+            Thread.Sleep(2000); // 2 segundos de espera
+
+// Agregar 8 tareas de ejemplo
+            tareas.Add(new Tarea { Nombre = "Tarea 1", FechaVencimiento = DateTime.Now.AddDays(1) });
+            tareas.Add(new Tarea { Nombre = "Tarea 2", FechaVencimiento = DateTime.Now.AddDays(2) });
+            tareas.Add(new Tarea { Nombre = "Tarea 3", FechaVencimiento = DateTime.Now.AddDays(3) });
+            tareas.Add(new Tarea { Nombre = "Tarea 4", FechaVencimiento = DateTime.Now.AddDays(4) });
+        }
         private void Form3_Load(object sender, EventArgs e)
         {
             this.CenterToScreen();
@@ -86,6 +100,11 @@ namespace AgendaCT
         }
 
         private void AgegraTareas_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void listBoxTareas_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
