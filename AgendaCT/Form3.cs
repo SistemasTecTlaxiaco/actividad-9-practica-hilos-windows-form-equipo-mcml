@@ -65,7 +65,14 @@ namespace AgendaCT
                 {
                     listBoxTareas.Items.Add($"{tarea.Nombre} - {tarea.FechaVencimiento.ToShortDateString()}");
                 }
-
+                // Ocultar el progress bar después de la carga
+                progressBar.Visible = false; // Ocultar el progress bar
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error al cargar las tareas: {ex.Message}");
+            }
+        }
         private void label1_Click(object sender, EventArgs e)
         {
           
